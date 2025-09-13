@@ -17,6 +17,7 @@ return new class extends Migration
             $table->string("location");
             $table->integer("nbr_place");
             $table->text("description")->nullable();
+            $table->text("image")->default("https://placehold.co/600x400?text=Placehold.co");
             $table->timestamps();
         });
     }

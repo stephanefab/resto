@@ -14,7 +14,8 @@ class Resto extends Model
         "name",
         "location",
         "nbr_place",
-        "description"
+        "description",
+        "image"
     ];
 
     
